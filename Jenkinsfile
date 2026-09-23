@@ -1,5 +1,5 @@
 pipeline {
-    agent any
+    agent {    label 'dev'}
 
     environment {
         DOCKER_IMAGE = "satyamverma7380-byte/jenkins-docker-project"
